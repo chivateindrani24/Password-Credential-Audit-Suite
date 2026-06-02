@@ -11,7 +11,6 @@ The toolkit includes:
 • Hash extraction (Linux shadow & Windows SAM)
 • Brute-force simulation module
 • Password strength analyzer
-
 Practical Motivation
 Passwords remain the first line of defense for user authentication. However, poor password practices lead to:
 • Account takeovers
@@ -29,7 +28,6 @@ Project Objectives
 • Build a brute-force simulation engine to test password robustness.
 • Analyze password strength based on complexity, entropy, and predictability.
 • Generate a detailed audit report on password vulnerabilities and mitigation steps.
-
 Practical Scope of the Project
 Dictionary Generator:
 • Generate custom wordlists based on patterns (name+DOB, keyboard patterns, common passwords, hybrid lists).
@@ -52,7 +50,6 @@ Report Generation:
 • Summary of weak passwords found.
 • Simulation results.
 • Recommended password policies.
-
 Tools & Technologies Used
 Programming Languages:
 • Python (recommended)
@@ -76,7 +73,6 @@ Blue Team Techniques:
 • Detecting weak passwords using audit tools
 • Implementing strong password policies
 • Monitoring and mitigating brute-force attempts
-
 Workflow / Architecture (Practical Explanation)
 STEP 1: User Input
 • Provide username list, password samples, or hash files.
@@ -106,7 +102,6 @@ Analyze Password Strength
 Generate Final Audit Report
 ↓
 END
-
 Expected Practical Output
 Deliverables include:
 • Working dictionary generator
